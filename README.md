@@ -1,6 +1,6 @@
 # Playwright: Alerts (qa_cypress_e2e_alerts Playwright/TypeScript alternative)
 
-## Make sure you have Playwright installed, open ../tests/alerts.test.ts and run 'npm test' in terminal. Test Report will open in default browser when test are finished, test report file located ../playwright-report/index.html.
+## Make sure you have Playwright installed, open bash terminal and run 'npm test'. Test Report will open in default browser when test are finished.
 
 ## How to install Playwright
 
