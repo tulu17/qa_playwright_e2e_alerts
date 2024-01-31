@@ -1,23 +1,22 @@
 # Playwright: Alerts (qa_cypress_e2e_alerts Playwright/TypeScript alternative)
 
-## Make sure you have Playwright installed, open ../tests/alerts.test.ts and run 'npm test' in terminal.
-## Test Report will open in default browser when test are finished, test report file located ../playwright-report/index.html.
+## Make sure you have Playwright installed, open ../tests/alerts.test.ts and run 'npm test' in terminal. Test Report will open in default browser when test are finished, test report file located ../playwright-report/index.html.
 
-1. Install Playwright
+## How to install Playwright
 
 ### Option 1
-    - install Playwright extension by Microsoft in VSC
-    - press CTRL + SHIFT + P
-    - type "install playwright" and choose the "Test: Install Playwright" option
-    - select desired browsers and/or GitHub Action
+   - install Playwright extension by Microsoft in VSC
+   - press CTRL + SHIFT + P
+   - type "install playwright" and choose the "Test: Install Playwright" option
+   - select desired browsers and/or GitHub Action
 
 ### Option 2
-    - open terminal and type **npm init playwright@latest**
-    - run the install command and select the following to get started:
-        - choose between TypeScript or JavaScript (default is TypeScript)
-        - name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
-        - add a GitHub Actions workflow to easily run tests on CI (optional)
-        - install Playwright browsers (default is true)
+   - open terminal and type **npm init playwright@latest**
+   - run the install command and select the following to get started:
+      - choose between TypeScript or JavaScript (default is TypeScript)
+      - name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
+      - add a GitHub Actions workflow to easily run tests on CI (optional)
+      - install Playwright browsers (default is true)
 
 ## Task
 
