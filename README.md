@@ -1,4 +1,4 @@
-# Playwright: Alerts (qa_cypress_e2e_alerts Playwright/TypeScript alternative)
+# Playwright: Alerts, the [qa_cypress_e2e_alerts](https://mate.academy/pl/learn/testowanie-javascript/cypress-pl?section=practice&testTaskSlug=qa_cypress_alerts) Playwright/TypeScript alternative
 
 ## How to run tests
  - Clone the repo
