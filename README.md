@@ -1,9 +1,10 @@
 # Playwright: Alerts (qa_cypress_e2e_alerts Playwright/TypeScript alternative)
 
-### Clone the repo
-### Make sure you have Playwright installed
-### Run npm i -d playwright
-### Run npm test
+## How to run tests
+ - Clone the repo
+ - Make sure you have Playwright installed
+ - Run npm i -d playwright
+ - Run npm test
 
 ## How to install Playwright
 
