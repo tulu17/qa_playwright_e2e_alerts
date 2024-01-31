@@ -1,21 +1,27 @@
-# Cypress: Alerts
+# Playwright: Alerts (qa_cypress_e2e_alerts Playwright/TypeScript alternative)
 
-## Workflow
+## Make sure you have Playwright installed, open ../tests/alerts.test.ts and run 'npm test' in terminal.
+## Test Report will open in default browser when test are finished, test report file located ../playwright-report/index.html.
 
-1. Fork the repo.
-1. Clone **your** forked repository.
-1. Run the command `npm i`.
-1. Create a new branch `git checkout -b testing`.
-1. Resolve tasks in the `cypress`/`e2e`/`alerts.cy.js`.
-1. Check yourself before submitting the task with a [Cypress checklist](https://mate-academy.github.io/qa-program/checklists/cypress.html).
-1. Create a pull request.
-1. Do not forget to click on `Re-request review` if you submit the homework after previous review.
+1. Install Playwright
+
+### Option 1
+    - install Playwright extension by Microsoft in VSC
+    - press CTRL + SHIFT + P
+    - type "install playwright" and choose the "Test: Install Playwright" option
+    - select desired browsers and/or GitHub Action
+
+### Option 2
+    - open terminal and type **npm init playwright@latest**
+    - run the install command and select the following to get started:
+        - choose between TypeScript or JavaScript (default is TypeScript)
+        - name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
+        - add a GitHub Actions workflow to easily run tests on CI (optional)
+        - install Playwright browsers (default is true)
 
 ## Task
 
 ### Basic level
-
-Read the documentation about the [Catalog of Events](https://docs.cypress.io/api/cypress-api/catalog-of-events).
 
 App for testing: [DemoQA](https://demoqa.com/alerts)
 
@@ -33,11 +39,6 @@ App for testing: [DemoQA](https://demoqa.com/alerts)
    - assert `You selected Cancel` is shown.
 
 ### Advanced level
-
-Read the documentation:
-
-- [stub](https://docs.cypress.io/api/commands/stub);
-- [window](https://docs.cypress.io/api/commands/window).
 
 1. Click on the fourth button and enter your name:
    - assert your name is shown on the page.
