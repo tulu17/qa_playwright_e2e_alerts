@@ -1,6 +1,6 @@
 # Playwright: Alerts (qa_cypress_e2e_alerts Playwright/TypeScript alternative)
 
-## Open VSC. Make sure you have Playwright installed. Run 'npm test' in bash terminal. Test Report will open in default browser when tests are finished.
+## Clone the repo to VSC. Make sure you have Playwright installed. Run 'npm test' in bash terminal. Test Report will open in default browser when tests are finished.
 
 ## How to install Playwright
 
